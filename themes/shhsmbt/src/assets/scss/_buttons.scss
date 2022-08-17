@@ -1,0 +1,17 @@
+.gb-button-shape-rounded{
+    border-radius:15px;
+}
+.gb-button {
+    padding: 20px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.gform_button {
+    @extend .gb-button, .gb-button-shape-rounded;
+    border:none;
+    background-color: black;
+    color:$white;
+    &:hover{
+        background-color: #a30046;
+    }
+}

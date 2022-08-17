@@ -1,0 +1,73 @@
+.flickity-page-dots{
+    text-align: right !important;
+}
+
+.dot{
+    background: #ce2b22 !important;
+}
+
+.carousel{
+    width: 550px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .carousel{
+        width: 400px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .carousel{
+        width: 350px !important;
+    }
+}
+
+
+.review-container{
+    width: 100% !important;
+}
+
+.review-info__con{
+    height: auto;
+    width: 550px;
+}
+
+.review{
+    margin-bottom: 0 !important;
+}
+
+.author{
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.author:before{
+    content: '-';
+}
+.flickity-viewport{
+    overflow:unset;
+    overflow-x:hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .review-info__con{
+        height: 300px !important;
+    }
+    .flickity-viewport {
+        height: 600px!important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .review-info__con{
+        width: 400px !important;
+        height: 382px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .review-info__con{
+        width: 350px !important;
+        height: 410px !important;
+    }
+}

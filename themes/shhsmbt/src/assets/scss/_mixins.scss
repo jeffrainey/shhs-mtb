@@ -1,0 +1,54 @@
+// Convert pixels sizes
+$base-size: 16;
+
+@function size($target, $context: $base-size) {
+  @return ($target / $context) * 1em;
+}
+
+body:after {
+  content: "xs,sm,md,lg,xl,xxl";
+  display: none;
+}
+
+body:before {
+  display: none;
+  content: "xs";
+}
+
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: $xs-max) { @content; }
+  }
+
+  @else if $class == sm {
+    @media (min-width: $sm) { @content; }
+  }
+
+  @else if $class == sm-down {
+    @media (max-width: $sm-down) { @content; }
+  }
+
+  @else if $class == md {
+    @media (min-width: $md) { @content; }
+  }
+
+  @else if $class == md-down {
+    @media (max-width: $md-down) { @content; }
+  }
+
+  @else if $class == lg {
+    @media (min-width: $lg) { @content; }
+  }
+
+  @else if $class == xl {
+    @media (min-width: $xl) { @content; }
+  }
+
+  @else if $class == xxl {
+    @media (min-width: $xxl) { @content; }
+  }
+
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg, xl, xxl";
+  }
+}

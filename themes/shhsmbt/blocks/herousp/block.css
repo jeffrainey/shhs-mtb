@@ -1,0 +1,12 @@
+.hero-box {
+    background-color: #E07405;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.hero-box-content{
+    padding: 10px 40px;
+}
+.hero-box-content p {
+    margin: 0!important;
+}

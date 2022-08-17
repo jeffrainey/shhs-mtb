@@ -1,0 +1,76 @@
+
+
+/*.wp-block {*/
+/*    max-width: 860px !important;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.wp-block.is-selected {*/
+/*    border: 1px solid;*/
+/*}*/
+
+/*.cf-field__head {*/
+/*    padding-top: 20px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.cf-file__inner {*/
+/*    max-width: 100%;*/
+/*}*/
+
+
+/*[data-type="carbon-fields/image-spacer"] .cf-file__inner,*/
+/*[data-type="carbon-fields/image-feature"] .cf-file__inner {*/
+/*        width: 100% !important;*/
+/*        height: 150px;*/
+/*}*/
+/* Associations in narrow spaces */
+[data-type="carbon-fields/clinic-info"] .cf-association__cols {
+    display: block;
+}
+
+[data-type="carbon-fields/clinic-info"] .cf-association__col {
+    width: 100%;
+}
+
+[data-type="carbon-fields/clinic-info"] .cf-association__cols:before {
+    display: none;
+}
+
+[data-type="carbon-fields/clinic-info"] .ui-sortable .cf-association__option {
+    background: #e2e1e1;
+}
+
+/*.block-editor-block-list__block {*/
+/*    margin-top: 0 !important;*/
+/*    margin-bottom: 0 !important;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.cf-block__fields {*/
+/*    !*border-top: 2px solid black;*!*/
+/*    border-bottom: 2px solid black;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+
+/*h1[data-type="core/heading"] {*/
+/*    padding-top: 20px;*/
+/*}*/
+
+.sketch-picker {
+    padding-top: 0 !important;
+}
+.sketch-picker > div:not(:last-child) {
+    display: none !important;
+}
+
+.has-teal-color { color: #0B8380 !important; }
+.has-teal-dark-color { color: #075A57 !important; }
+.has-teal-light-color { color: #6CCBC1 !important; }
+.has-red-color { color: #E61E49 !important; }
+.has-blue-color { color: #1676CA !important; }
+.has-purple-color { color: #8C408E !important; }
+.has-orange-color { color: #FF7800 !important; }
+.has-orange-light-color { color: #FCB211 !important; }
+.has-ob-purple-color { color: #715561 !important; }
+

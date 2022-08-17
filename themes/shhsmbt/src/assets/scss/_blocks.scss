@@ -1,0 +1,219 @@
+
+.entry-content>article,
+.entry-content .articles,
+.entry-content>section {
+
+  > * {
+    max-width: $gbl-max-width;
+    padding-left: $gbl-mobile-padding;
+    padding-right: $gbl-mobile-padding;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media ( min-width: $md ) {
+      padding-left: $gbl-padding-sm;
+      padding-right: $gbl-padding-sm;
+    }
+
+    @media ( min-width: $lg ) {
+      padding-left: $gbl-padding-lg;
+      padding-right: $gbl-padding-lg;
+    }
+  }
+
+  > a {
+    margin-bottom: 0 !important;
+  }
+
+  .entry-content {
+    margin-top: 0;
+  }
+
+  .wp-block-spacer { margin: 0 }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: $gbl-content-padding;
+  }
+
+  > .alignwide {
+    max-width: 1100px;
+  }
+
+  > .alignfull {
+    margin: 1.5em 0;
+    max-width: 100%;
+  }
+
+  ul, ol {
+    margin: 1.5em auto;
+    list-style-position: outside;
+  }
+
+  .wp-block-video {
+    video {
+      max-width: $site-width;
+    }
+  }
+
+  .wp-block-image {
+    img {
+      display: block;
+    }
+
+    .alignleft,
+    .alignright{
+      width: 100%
+    }
+
+    .alignfull img {
+      width: 100vw;
+    }
+  }
+
+  .wp-block-gallery:not(.components-placeholder) {
+    margin: 1.5em auto;
+  }
+
+  .wp-block-cover-text p {
+    padding: 1.5em 14px;
+  }
+
+  ul.wp-block-latest-posts.alignwide,
+  ul.wp-block-latest-posts.alignfull,
+  ul.wp-block-latest-posts.is-grid.alignwide,
+  ul.wp-block-latest-posts.is-grid.alignwide {
+    padding: 0 14px;
+  }
+
+  .wp-block-table {
+    display: block;
+    overflow-x: auto;
+
+    table {
+      border-collapse: collapse;
+      width: 100%
+    }
+
+    td, th {
+      padding: .5em;
+    }
+  }
+
+  li {
+    margin-left: 1em;
+    margin-bottom: $gbl-padding-sm;
+  }
+
+  ul ul,
+  ol ol,
+  ul ol,
+  ol ul {
+    margin: 0 auto;
+
+    li {
+    }
+  }
+
+  .wp-block-column > ol, .wp-block-column > ul, .wp-block-column > li{
+    padding-inline-start: initial;
+  }
+
+  .wp-block-embed.type-video > .wp-block-embed__wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+
+    > iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  .wp-block-quote.is-large {
+    margin: 0 auto $gbl-padding-sm;
+  }
+
+  .wp-block-pullquote>p:first-child {
+    margin-top: 0;
+  }
+
+  .wp-block-separator {
+    margin: 3em auto;
+    padding: 0;
+  }
+
+
+  .wp-block-columns {
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0 0 5px !important;
+      @media (min-width: $md) {
+        margin: 0 0 25px !important;
+      }
+    }
+  }
+
+
+
+  @media screen and (min-width: 768px) {
+    .wp-block-cover-text p {
+      padding: 1.5em 0;
+    }
+
+    .wp-block-column {
+
+      &:not(:first-child) {
+        margin-left: 72px;
+      }
+    }
+  }
+}
+
+
+// .gform_footer {
+//   max-width: fit-content;
+//   input {
+//     border-radius: 3px;
+//   }
+// }
+
+// TODO make sure these colors are needed and variables
+/*--------------------------------------------------------------
+# Block Color Palette Colors
+--------------------------------------------------------------*/
+.has-strong-blue-color {
+  color: $dark-blue;
+}
+
+.has-strong-blue-background-color {
+  background-color: $dark-blue;
+}
+
+.has-lighter-blue-color {
+  color: $light-blue;
+}
+
+.has-lighter-blue-background-color {
+  background-color: $light-blue;
+}
+
+.has-very-light-gray-color {
+  color: #eee;
+}
+
+.has-very-light-gray-background-color {
+  background-color: #eee;
+}
+
+.has-very-dark-gray-color {
+  color: $gray;
+}
+
+.has-very-dark-gray-background-color {
+  background-color: $gray;
+}

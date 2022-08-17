@@ -1,0 +1,15 @@
+/*
+    Styling for elements that aren't in blocks and don't fit into globals/reusables
+*/
+#contact-location-map{
+    width:100%;
+    max-width: unset;
+    padding:0;
+    height:250px;
+    margin:0!important;
+}
+#gform_1 {
+    .gform_title{
+        font-size:size(32);
+    }
+}

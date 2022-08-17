@@ -1,0 +1,91 @@
+*~
+.idea/*
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+*.log
+Thumbs.db
+.htaccess
+.idea
+.sass-cache
+
+#generated files
+themes/shhsmbt/dist/*
+themes/shhsmbt/packaged/*
+
+#user specific
+#_design
+
+#Plugins used in development
+#Add local dev plugins here
+#wp-content/plugins/wordpress-importer
+
+# wordpress specific
+uploads/
+blogs.dir/
+upgrade/*
+backup-db/*
+advanced-cache.php
+wp-cache-config.php
+cache/*
+cache/supercache/*
+debug.log
+languages
+mu-plugins/
+vendor/
+
+# wordpress default themes
+themes/twenty*
+
+# wpengine specific
+.smushit-status
+.gitattributes
+_wpeprivate
+object-cache.php
+mu-plugins/mu-plugin.php
+mu-plugins/slt-force-strong-passwords.php
+mu-plugins/limit-login-attempts
+mu-plugins/wpengine-common
+mysql.sql
+
+node_modules/
+
+# ignore YeoPress configuration file since it contains password information
+.yeopress
+
+# large/disallowed file types
+# a CDN should be used for these
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
+*.img
+*.msi
+*.msp
+*.msm
+*.mid
+*.midi
+*.kar
+*.mp3
+*.ogg
+*.m4a
+*.ra
+*.3gpp
+*.3gp
+*.mp4
+*.mpeg
+*.mpg
+*.mov
+*.webm
+*.flv
+*.m4v
+*.mng
+*.asx
+*.asf
+*.wmv
+*.avi

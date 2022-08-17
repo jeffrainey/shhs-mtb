@@ -1,0 +1,96 @@
+@font-face{
+    font-family: Oldventure;
+    src: url(/wp-content/themes/shhsmbt/dist/fonts/oldventure/Oldventure.ttf);
+    font-weight: normal;
+}
+
+$default-fonts: 'Open Sans', $fallbacks;
+$mobile-menu-font-size: size(32);
+
+body,
+html {
+  font-family: 'Open Sans', $fallbacks;
+}
+
+p {
+  margin-top: 0 !important;
+  color: $text-color;
+  font-size: size(16);
+  line-height: 1.75;
+
+  @media (min-width: $md) {
+    font-size: size(18);
+  }
+}
+
+b,
+strong {
+  font-family: 'Open Sans', $fallbacks;
+}
+
+h1, h2, h3, h4, h5, h6, .h2 {
+  font-family: 'Oldventure', $fallbacks ;
+  color: $header-color;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin-bottom: 0 !important;
+}
+
+h1,
+.h1 {
+  $h1-size: 64;
+  font-size: size($h1-size - 8);
+
+  @media (min-width: $md) {
+    font-size: size($h1-size);
+  }
+}
+
+h2,
+.h2 {
+  font-size: size(30);
+
+  @media (min-width: $md) {
+    font-size: size(40);
+  }
+}
+
+h3,
+.h3 {
+  font-size: size(26);
+
+  @media (min-width: $md) {
+    font-size: size(30);
+  }
+}
+
+h4,
+.h4 {
+  font-size: size(26);
+}
+
+h5,
+.h5 {
+  font-size: size(20);
+}
+
+h6,
+.h6 {
+  font-size: size(16);
+}
+
+a {
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.block-a {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.white-text{
+    color:$white;
+}

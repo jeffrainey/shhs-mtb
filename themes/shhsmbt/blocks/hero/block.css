@@ -1,0 +1,33 @@
+.hero-block{
+    margin: 0 auto!important;
+    background-size:cover;
+    background-position: top;
+    max-width: unset!important;
+    padding:0!important;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content{
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+.hero-content > h1{
+    line-height: 1.5;
+    margin-top: 0 !important;
+    color: #fdb71a !important;
+    background-color: rgb(163, 0, 70, 0.7);
+}
+
+@media (min-width: 650px) {
+    .hero-block{
+        display: block;
+    }
+    .hero-content{
+        padding: 200px 100px;
+    }
+}

@@ -1,0 +1,15 @@
+.components-notice{
+    display: none;
+}.logo-divider{
+    height:25px;
+    position: relative;
+    top: -12.5px;
+}
+.fancy-divider-line{
+    height:3px;
+    width:100%;
+    background: linear-gradient(90deg, rgba(109,159,44,1) 0%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 60%, rgba(109,159,44,1) 100%);
+}
+.fancy-divider-wrapper{
+    text-align: center;
+}

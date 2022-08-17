@@ -1,0 +1,27 @@
+
+.interiorhead-block .content {
+    position: relative;
+    z-index: 2;
+}
+.interiorhead-block {
+    background-position: center;
+    margin: 135px 0 0 0 !important;
+    max-width: unset!important;
+}
+.interiorhead-block p {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.interiorhead-container{
+    display: flex;
+}
+.ih-background, .ih-background>svg{
+    width:100%;
+}
+.interior-head-text{
+    padding:100px 0;
+    text-align: center;
+    color:#fff;
+}

@@ -1,0 +1,6 @@
+.contactinfo-content{
+    width:33%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+}

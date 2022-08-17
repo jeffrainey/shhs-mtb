@@ -1,0 +1,82 @@
+// COLOR
+$black: #000000;
+$white: #ffffff;
+$gray: #707070;
+$orange:#E07405;
+$light-blue:#5A91B2;
+$dark-blue:#406E91;
+$green:#6B9C2B;
+$dark-brown:#5A3B01;
+$light-brown:#9C5A26;
+$red: red;
+$trans-blue: #416D91CC;
+
+$error: $red;
+$anchor-color: $light-blue;
+$anchor-hover: $gray;
+$header-color: $black;
+$text-color: $black;
+
+$site-width: 1180px;
+
+// FONT WEIGHTS
+$regular: 400;
+$bold: 600;
+$black: 900;
+
+// FONT FALLBACKS
+$fallbacks: 'Helvetica, Arial, sans-serif';
+
+// BREAKPOINTS
+$rainey-xs: 576px;
+$xs-max  : 599px;
+$sm      : 600px;
+$sm-down : 767px;
+$md      : 768px;
+$md-down : 991px;
+$lg      : 992px;
+$xl-down : 1249px;
+$xl      : 1250px;
+$xxl     : 1440px;
+$xxxl    : 1920px;
+$max     : 2650px;
+
+// SIZES
+
+
+$gbl-padding-xs: 10px;
+$gbl-padding-sm: 20px;
+$gbl-padding: 32px;
+$gbl-padding-lg: 80px;
+$gbl-padding-xl: 120px;
+
+$gbl-mobile-padding: $gbl-padding-sm;
+$gbl-content-padding: 10%;//$gbl-padding;
+
+$gbl-max-width: 1280px;
+$gbl-lg-width: 2000px;
+
+
+// RADIUS
+//$gbl-radius-sm: 3px;
+//$gbl-radius: 10px;
+
+// BOX SHADOWS
+//$gbl-box-shadow-sm: 1px 1px 5px rgba( 0, 0, 0, 0.2 );
+//$gbl-box-shadow:    3px 3px 10px rgba( 0, 0, 0, 0.2 );
+//$gbl-box-shadow-lg: 5px 5px 15px rgba( 0, 0, 0, 0.1 );
+
+// Utility classes
+$sizes: 0, 5, 10, 15, 20, 25;
+
+// margins
+@each $size in $sizes {
+  .mt-#{$size} {
+    margin-top: $size + px;
+  }
+}
+@each $size in $sizes {
+  .mb-#{$size} {
+    margin-bottom: $size + px!important;
+  }
+}
